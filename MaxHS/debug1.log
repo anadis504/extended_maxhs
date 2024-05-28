@@ -1,0 +1,262 @@
+c MaxHS 4.0.0
+c Instance: ../../UndercoverBMF/rndData/rnd100_1.csv
+c Parameter Settings
+c ============================================
+c  A: General MaxHS Options
+c   fbeq = false, printOptions = true, printBstSoln = false, printSoln = false,
+c   printSoln-new-format = true, version = false, abstract-cores2greedy = false, tolerance = 1e-06,
+c   mem-lim = 2147483647, coretype = 0, cpu-lim = 2147483647, verb = 0,
+c   sverb = 0,
+c 
+c  B: MaxHS with abstractions Options
+c   abstract = true, 1st-abstract-gap = 5, abstract-gap = 1, exhaust-cpu-lim = 3,
+c   abs-cpu = 256, abstract-max-ave-size = 100, abstract-max_core_size = 1000, abstract-min-cores = 2,
+c   cplex-greedy = 0, abstract-greedy_cores = 2, abstract-cplex_cores = 2, abstract-minsize = 2,
+c  
+c  C: Disjoint Phase Options
+c   dsjnt = true, dsjnt-cpu-lim = 30, dsjnt-mus-cpu-lim = 10,
+c 
+c  D: Seeding Options
+c   seed-learnts = true, all-seeded_2nd_abs_cpu = 240, all-seeded-1st-abs-cpu = 60, all-seeded-1st-cplex-cpu = 100,
+c   seed_cpu_before_cplex = 200, seed-all-limit = 512, seed-max = 524288, seedtype = 3,
+c  
+c  E: Sequence of Sat Options
+c   lp-harden = true, find-forced = false, improve-model = false, use-ub-mipstart = true,
+c   optcores-cpu-lim = 10, max-cpu-improve-model = 10, max-cpu-before-cplex = 200, relaxfrac = 0.3,
+c   max-size-improve-model = -1, sort-assumps = 0, max-cores-before-cplex = 300, frac-rampup-end = 512,
+c   frac-rampup-start = 128, abstract-assumps = 1, nonopt = 3,
+c 
+c  F: Core Minimization Options
+c   mus-min-red = 0.1, mus-cpu-lim = 2.5, mintype = 1, mverb = 0,
+c  
+c  G: CPLEX Options
+c   cplex-tune = false, cplex-min-ticks = 4, cplex-threads = 1,
+c 
+c  H: CPLEX Solution Pool and Populate Options
+c   cplextime-pop-cpu-lim = 7.5, ub-conflicts = 1, cplex-solnpool-cap = 256, cplex-pop-nsoln = 256,
+c   cplex-populate = 1,
+c 
+c  I: Preprocessing Options
+c   wcnf-harden = true, simplify-only = false, mx-seed-mxes = true, mx-constrain-hs = true,
+c   preprocess = true, wcnf-eqs = true, wcnf-units = true, mx-cpu-lim = 15,
+c   mx-find-mxes = 2, mx-mem-lim = 1536,
+c 
+c  J: Debugging Options
+c   cplex-output = false, cplex-wrt-model = false, cplex-data-chk = true,
+c 
+c  U: full MIP solution as asumptions to SAT-solver Options
+c   full_assm = 1,
+c 
+c  V: k-undercover BMF Options
+c   k-undercover = 8,
+c 
+c  W: BMF symmetry breaking Options
+c   sym-break = 1,
+c 
+c  X: BMF cardinality generation 1= in SAT, 2= in cplex Options
+c   card-gen = 3,
+c 
+c  Y: implication constraint both directions Options
+c   bmf_eq = 0,
+c 
+c  Z: degree of information in SAT, default 0 Options
+c   inform_sat = 1,
+c 
+c  ZZ: split the solution from cplex into two groups based on objective function. Extract cores twice with different assumtions respectivelly, default 0 Options
+c   split_sol = 2
+c ============================================
+c
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 10 literals
+Totalizer stats: #clauses=79; #vars=34
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+Building totalizer over 9 literals
+Totalizer stats: #clauses=65; #vars=29
+amount of card constraints: 2633
+Remaining compatible ones 339
+c Instance: ../../UndercoverBMF/rndData/rnd100_1.csv
+c Dimacs Vars: 85326
+c Dimacs Clauses: 88151
+c Dimacs Top: 960
+c HARD: #Clauses = 88159, Total Lits = 189158, Ave Len = 2.1456 #units = 8
+c SOFT: #Clauses = 0, Total Lits = 0, Ave Len = 0.0000
+c Total Soft Clause Weight (+ basecost): 0 (+ 0)
+c SOFT%: 0.0000%
+c #distinct weights: 0, mean = 0.0000, std. dev = 0.0000, min = 0, max = 0
+c Total Clauses: 88159
+c Parse time: 0.026870
+c Wcnf Space Required: 0.0000MB
+c ================================
+amount of vars for obj func 859
+c Using IBM CPLEX version 22.1.1.0 under IBM's Academic Initiative licencing program
+c Cplex solve passed UB = 174.000000 current LB = 0.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+Cplex found standard solution OPTIMAL
+c Cplex solve passed UB = 174.000000 current LB = 10.000000
+c Cplex solve passed UB = 123.000000 current LB = 10.000000
+c Solved by CPLEX model objective vars.
+o 111
+s OPTIMUM FOUND
+amount of card constraints: 0
+Remaining compatible ones 960
+c Cost of model = 111.000000
+c SAT: #calls 10430
+c SAT: Total time 871.2262
+c SAT: #muser calls 440 (80.4545 % successful)
+c SAT: Minimize time 207.2370 (23.7868%)
+c SAT: Avg constraint minimization 0.6896
+c SAT: number of variables substituted 0
+c SAT: number of cores extracted 2710, of average lenght 2.922509
+c GREEDY: #calls 9
+c GREEDY: Total time 0.0034
+c CPLEX: #calls 10
+c CPLEX: Total time 5.8804
+c CPLEX: #constraints 6642
+c CPLEX: Avg constraint size 5.4136
+c CPLEX: cores with objective values 435
+c CPLEX: Avg number of objective value per core containing 6.7402
+c CPLEX: #non-core constraints 1300
+c CPLEX: Ave non-core size 8.7354
+c CPLEX: population time 0.0000
+c LP-Bounds: Total time 2.2276
+c LP-Bounds: #calls 10
+c LP-Bounds: Forced 0 variables
+c MEM MB: 196.0000
+c CPU: 673.1859
